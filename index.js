@@ -15,6 +15,8 @@ mongoose.connect('mongodb://localhost:27017/authDemo', {family: 4 })
     })
 
 
+    
+
 app.set('view engine','ejs');
 app.set('views', 'views');
 
